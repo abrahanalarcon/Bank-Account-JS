@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #edf1f2;
+    color: #2b3d4f;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #95a6a7;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.account-info {
+    background-color: #95a6a7;
+    color: #edf1f2;
+    width: 100%;
+    max-width:600px;
+   height: 10rem;
+    border-radius: 10px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.account-info p{
+    text-align: center;
+    padding: 0.5rem;
+    
+}
+
+form {
+    background-color: #2b3d4f;
+    color: #edf1f2;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #95a6a7;
+    color: #2b3d4f;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #edf1f2;
+    color: #2b3d4f;
+}
+

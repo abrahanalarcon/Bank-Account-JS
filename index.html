@@ -1,0 +1,34 @@
+<DOCTYPE!>
+
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <h1>Cuenta Bancaria</h1>
+
+    <div class="account-info">
+        <p>Número de Cuenta: <span id="accountNumber"></span></p>
+        <p>Titular de la Cuenta: <span id="accountHolder"></span></p>
+        <p>Saldo Actual: <span id="balance"></span></p>
+    </div>
+
+    <form id="transactionForm">
+        <label for="amount">Monto:</label>
+        <input type="text" id="amount" required>
+        
+        <button type="button" onclick="deposit()">Depositar</button>
+        <button type="button" onclick="withdraw()">Retirar</button>
+        <button id="clearBalanceButton">Limpiar Balance</button>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
